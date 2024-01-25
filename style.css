@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.column{
+    text-align: center;
+}
+.head{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    padding-top: 1rem;
+}
+.heading{
+    font-family: 'Dancing Script';
+    font-size: 28px;
+    font-weight: bold;
+}
+.heading1{
+    font-family: 'Roboto';
+font-weight: 600;
+}
+.column1{
+   display: flex;
+   padding-top: 5%;
+}
+.box1{
+    border: 1px solid #bab9b6;
+    width: 35%;
+    padding: 15px;
+}
+.box1 h4,.box2 h4{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+}
+.box1 h5,.box2 h5{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+.box1 p,.box2 p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    padding-top: 2rem;
+    font-weight: 600;
+}
+a{    color: black;
+}
+.image img{
+    position: relative;
+    border-radius: 100%;
+    margin-left: 40%;
+}
+.column3{
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-between;
+ }
+.box2{
+    border: 1px solid #bab9b6;
+    width: 35%;
+    padding: 15px;
+}
+.image1 img{
+    border-radius: 50%;
+    margin-left: 200%;
+}
